@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: aqua;
+    height: 22vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-links {
+    background-color:green;
+    width:25%;
+    height: 25%;
+}
+
+.logo {
+   
+    background-color:green;
+    width:25%;
+    height: 25%;
+    
+}
+
+.info {
+    background-color: gray;
+    height: 22vh;
+}
+
+.paragraph {
+    background-color: bisque;
+    height: 22vh;
+}
+
+.signup {
+    background-color: lightpink;
+    height: 22vh;
+}
+
+footer {
+    background-color: lightgreen;
+    height: 12vh;
+}
