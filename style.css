@@ -71,6 +71,8 @@ a:active {
 h1 {
     margin-top: 15px;
     font-size: 48px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .heropitch {
     margin-left: 5px;
@@ -89,20 +91,18 @@ h1 {
 }
 
 .info-container {
-    background-color: gray;
+    background-color: rgb(233, 228, 228);
     height: 400px;
     display: flex;
     flex-direction: row;
-    
+    margin-top: 5px;
     justify-content: space-evenly;
 }
 
 
 .sixreasonsinfo {
-    background-color: gold;
     display: flex;
     flex-direction: column;
-   
 }
 
 
@@ -112,11 +112,9 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 25px;
-    
 }
 
 .bbqbeginnerguide {
-    background-color: gold;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -127,10 +125,33 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 25px;
-    
 }
 
+.beyond-burgers-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
 
+.beyond-burgers-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.joy-of-bbq-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.joy-of-bbq-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 25px; 
+}
 
 
 
@@ -148,22 +169,22 @@ img {
 .card-four {
     display: flex;
     justify-content: center;
-    background-color: aqua;
     width:400px;
     margin-top: 10px;
-    
-    
 }
-
-
-
-
-
-
 
 .paragraph {
     background-color: bisque;
-    height: 22vh;
+    height:300px;
+    margin-top: 5px;
+    
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;
 }
 
 .signup {
