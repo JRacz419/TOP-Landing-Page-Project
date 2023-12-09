@@ -159,6 +159,7 @@ h1 {
 img {
     border-radius: 3%;
     margin-top: 10px;
+    
 }
 
 
@@ -218,8 +219,24 @@ h2 {
 }
 
 .button-container {
-    background-color: aquamarine;
+    background-color: #3382F6;
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
+.button-wrapper {
+    margin-left: 100px;
+}
+
+button {
+    background-color: #3382F6;
+    color: white;
+    
+    border-color: white;
 }
 
 footer {
