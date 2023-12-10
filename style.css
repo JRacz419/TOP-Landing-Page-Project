@@ -100,6 +100,7 @@ h1 {
 }
 
 
+
 .sixreasonsinfo {
     display: flex;
     flex-direction: column;
@@ -111,7 +112,7 @@ h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-top: 25px;
+    padding: 2px 16px;
 }
 
 .bbqbeginnerguide {
@@ -124,7 +125,7 @@ h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-top: 25px;
+    padding: 2px 16px;
 }
 
 .beyond-burgers-div {
@@ -137,7 +138,7 @@ h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-top: 25px;
+    padding: 2px 16px;
 }
 
 .joy-of-bbq-div {
@@ -150,41 +151,49 @@ h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-top: 25px; 
+    padding: 2px 16px;
 }
 
-
-
-
-img {
-    border-radius: 3%;
-    margin-top: 10px;
-    
+.card-one:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.card-two:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
+.card-three:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-four:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .card-one,
 .card-two,
 .card-three,
 .card-four {
-    display: flex;
     justify-content: center;
-    width:400px;
     margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width:300px;
+    transition: 0.3s;
+    
 }
 
-.paragraph {
+section {
     background-color: rgb(233, 228, 228);
     height: 220px;
     margin-top: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
-h2 {
+p {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -205,7 +214,7 @@ h2 {
 
 .blue-container {
     background-color: #3382F6;
-    width: 800px;
+    width: 650px;
     height: 120px;
     margin-top: 26px;
     border-radius: 3%;
@@ -224,8 +233,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-   
 }
 
 .button-wrapper {
