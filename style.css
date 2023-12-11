@@ -91,12 +91,16 @@ h1 {
 }
 
 .info-container {
-    background-color: rgb(233, 228, 228);
+   
     height: 400px;
     display: flex;
     flex-direction: row;
     margin-top: 5px;
     justify-content: space-evenly;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 
@@ -113,6 +117,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 2px 16px;
+    font-weight: bold;
 }
 
 .bbqbeginnerguide {
@@ -186,21 +191,37 @@ h1 {
 
 section {
     background-color: rgb(233, 228, 228);
-    height: 220px;
-    margin-top: 5px;
+    height: 450px;
+    margin-top: 12px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-p {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 900px;
-    font-weight: lighter;
-    font-size: 36px;
-    font-style: italic;
+
+.pitch-container {
+    background-color: lavender;
+    width: 650px;
+    
+}
+
+
+
+.bold-pitch {
+    background-color: blueviolet;
+    text-align: center;
+    font-size:  36px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.sign-up {
+    background-color: lightgreen;
+    margin-top: 5px;
+    font-size:  36px;
+    text-align: center;
+    padding: 5px;
 }
 
 .signup-container {
@@ -224,7 +245,9 @@ p {
 }
 
 .call-to-action {
-    background-color: green;
+    background-color: rgb(100, 189, 244);
+    width: 460px;
+    text-align: center;
 }
 
 .button-container {
@@ -250,3 +273,4 @@ footer {
     background-color: lightgreen;
     height: 12vh;
 }
+
