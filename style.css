@@ -216,12 +216,28 @@ section {
     padding: 5px;
 }
 
+.sign-up-quote {
+    font-size: 24px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+}
+
+.join-now {
+    background-color: #3382F6;
+    font-size: 20px;
+    margin-top: 0px;
+    
+}
+
 .sign-up {
     background-color: lightgreen;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size:  36px;
     text-align: center;
     padding: 5px;
+   
+    
 }
 
 .signup-container {
@@ -241,13 +257,21 @@ section {
     border-radius: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+   
 }
 
 .call-to-action {
-    background-color: rgb(100, 189, 244);
+    background-color: rgb(201, 241, 156);
     width: 460px;
     text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
 }
 
 .button-container {
