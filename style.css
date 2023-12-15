@@ -13,6 +13,38 @@ header {
     border: 1px solid;
 }
 
+input[type=text] {
+    width: 100%;
+    font-size: 28px;
+    padding: 15px;
+    
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-bottom: 30px;
+ }
+
+ .email-bar {
+    font-size: 25px;
+ }
+
+ button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(10, 119, 13);
+    color: white;
+    margin-bottom: 40px;
+    border: 2px black;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+ }
+
+ 
+
+ 
+
 .navigation {
     width:25%;
     height: 25%;
@@ -65,7 +97,7 @@ a:active {
     padding: 5px;;
     font-weight: bold;
     font-family:  Georgia, Arial and Helvetica;
-    margin-top: 100px;
+    margin-top: 20px;
     width: 500px;
 }
 
@@ -119,6 +151,7 @@ h1 {
     font-size: 20px;
     padding: 2px 16px;
     font-weight: bold;
+    
 }
 
 .bbqbeginnerguide {
@@ -285,14 +318,18 @@ section {
 }
 
 .button-wrapper {
-    margin-left: 100px;
+    margin-left: 85px;
+    border: 1px black;
+    
 }
 
 button {
     background-color: #3382F6;
     color: white;
-    
+    width: 135px;
+    height: 30px;
     border-color: white;
+    font-weight: bold;
 }
 
 footer {
@@ -303,20 +340,32 @@ footer {
     justify-content: space-between;
 }
 
+.footer-signup {
+    border: 1px black solid;
+}
+
 .social-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
     margin-top: 16px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .copy {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 6px;
     
+    margin-left: 10px;
+}
+
+.logo-footer {
+    padding-top: 6px;
+}
+
+li {
+    list-style: none;
 }
 
