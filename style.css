@@ -63,6 +63,40 @@ input[type=text] {
     font-size: 18px;
 }
 
+
+.article a:link {
+    color: black;
+}
+
+.article a:visited {
+    color: black;
+}
+
+.article a:active {
+    color: black;
+}
+
+.article a:link {
+    text-decoration: none;
+}
+
+.article a:visited {
+    text-decoration: none;
+}
+  
+.article a:hover {
+    text-decoration: none;
+}
+  
+.article a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
 a:link {
     color: white;
 }
@@ -145,13 +179,12 @@ h1 {
 
 
 
-.sixreasonstext {
+.article {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 2px 16px;
     font-weight: bold;
-    
 }
 
 .bbqbeginnerguide {
@@ -160,12 +193,7 @@ h1 {
     width: 300px;
 }
 
-.weber-text {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 2px 16px;
-}
+
 
 .beyond-burgers-div {
     display: flex;
@@ -173,12 +201,7 @@ h1 {
     width: 300px;
 }
 
-.beyond-burgers-text {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 2px 16px;
-}
+
 
 .joy-of-bbq-div {
     display: flex;
@@ -186,12 +209,7 @@ h1 {
     width: 300px;
 }
 
-.joy-of-bbq-text {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 2px 16px;
-}
+
 
 .card-one:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -333,7 +351,7 @@ button {
 }
 
 footer {
-    background-color: rgb(233, 228, 228);
+    background-color: black;
     height: 12vh;
     display: flex;
     flex-direction: row;
@@ -357,7 +375,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    color: white;
     margin-left: 10px;
 }
 
